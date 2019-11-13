@@ -13,7 +13,9 @@
                     <h2>{{ page.header.work.title }}</h2>
                     <hr class="line2">
                     <p class="title5">{{ page.header.work.description }}.</p>
-                    <h2 class="pad_bot1">{{ page.header.hiretitle }}</h2>
+<!--Glm                    <h2 class="pad_bot1">{{ page.header.hiretitle }}</h2>-->
+<!--Glm-->                 <h2 class="pad_bot1">{{ page.header.contact.title }}</h2>
+<!--Glm-->                 <p class="title5"><a href="{{ page.header.contact.url }}" class="btn-link btn-link2">{{ page.header.contact.description }}<span></span></a></p>
 
                     {% if config.plugins.simple_form.enabled %}
                         {% set simple_form_config = page.header.simple_form ?: config.themes.photographer.simple_form %}

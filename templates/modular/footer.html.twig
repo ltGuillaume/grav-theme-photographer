@@ -16,12 +16,13 @@
                    {% endfor %}
                </ul> 
            </div>
-           <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 locations row4_col">
-            <h2>{{ page.header.locations.title }}</h2>
-            <figure>{{ page.media[page.header.locations.logo] }}</figure>
-            <p class="title4">{{ page.header.locations.text }}</p>
+           <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 contact row4_col">
+<!--Glm-->            <h2>{{ page.header.contact.title }}</h2>
+<!--Glm-->            <figure>{{ page.media[page.header.contact.logo] }}</figure>
+<!--Glm-->            <p class="title4">{{ page.header.contact.text }}</p>
             <hr class="line1">
-            <a href="mailto:{{ page.header.locations.email }}" class="btn-link btn-link3"><span></span>{{ page.header.locations.email }}</a>
+<!--Glm             <a href="mailto:{{ page.header.contact.email }}" class="btn-link btn-link3"><span></span>{{ page.header.contact.email }}</a>-->
+<!--Glm-->            <a href="{{ page.header.contact.contact_url }}" class="btn-link btn-link2">{{ page.header.contact.contact_text }}<span></span></a>
         </div>
     </div>
 </div>

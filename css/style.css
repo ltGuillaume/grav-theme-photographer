@@ -250,7 +250,7 @@ header {
 }
 .tm_navbar .nav li a {
 	text-decoration: none;
-	text-transform: lowercase;
+/*Glm	text-transform: lowercase;*/
 	color: #ffffff;
 	font-family: 'Georgia', serif;
 	font-size: 22px;
@@ -947,6 +947,7 @@ hr.line2 {
 .description {
 	position: relative;
 	display: block;
+/*Glm*/ text-align: center;
 }
 #filters {
 	position: relative;
@@ -1101,11 +1102,11 @@ address .info p:first-child {
 }
 /***** contact form *****/
 .contact-form {
-	position: relative;
-	vertical-align: top;
+/*Glm*/	padding: 2em;
+/*Glm*/	background: url(../img/pattern2.jpg) 0 0 repeat;
 	z-index: 1;
-	margin: 0 0 0;
-	top: 0;
+/*Glm	margin: 0 0 0;
+	top: 0;*/
 }
 .contact-form .txt-form {
 	display: none;
@@ -1122,6 +1123,26 @@ address .info p:first-child {
 .contact-form .coll-4 {
 	margin-bottom: 5px;
 }
+/*Glm*/
+.contact-form button {
+	margin: 1em auto;
+	padding: .5em 1em;
+	background: #fff;
+	color: #333333;
+	font-weight: bold;
+	border: 1px solid #dbdbdb;
+}
+.contact-form button:hover {
+	background: #eb5368;
+	color: #fff;
+	border: 1px solid #db4358;
+}
+.contact-form button:active {
+	background: #fff;
+	color: #adadad;
+	border-color: #adadad;
+}
+/*/Glm*/
 .contact-form fieldset {
 	top: 13px;
 	border: none;
@@ -1132,9 +1153,10 @@ address .info p:first-child {
 }
 .contact-form label {
 	display: block;
-	min-height: 45px;
+/*Glm	min-height: 45px;*/
 	position: relative;
 	margin: 0;
+/*Glm*/	margin-top: 1em;
 	padding: 0;
 	float: left;
 	width: 100%;
@@ -1144,7 +1166,8 @@ address .info p:first-child {
 	width: 100%;
 }
 .contact-form input {
-	padding: 9px 14px 8px;
+/*	padding: 9px 14px 8px;
+/*Glm*/	padding: .75em;
 	margin: 0;
 	text-decoration: none;
 	font-family: 'Arial', sans-serif;
@@ -1153,6 +1176,7 @@ address .info p:first-child {
 	font-weight: normal;
 	color: #adadad;
 	background: transparent;
+/*Glm*/	background: #fff;
 	outline: none;
 	width: 100%;
 	border: 1px solid #dbdbdb;
@@ -1165,7 +1189,8 @@ address .info p:first-child {
 	box-sizing: border-box;
 }
 .contact-form textarea {
-	padding: 9px 14px 8px;
+/*	padding: 9px 14px 8px;
+/*Glm*/	padding: .75em;
 	margin: 0;
 	text-decoration: none;
 	font-family: 'Arial', sans-serif;
@@ -1173,7 +1198,8 @@ address .info p:first-child {
 	line-height: 22px;
 	font-weight: normal;
 	color: #adadad;
-	background: transparent;
+/*	background: transparent;
+/*Glm*/	background: #fff;
 	outline: none;
 	width: 100%;
 	border: 1px solid #dbdbdb;
@@ -1439,7 +1465,8 @@ footer {
 	padding: 0;
 	margin: 0;
 	float: left;
-	margin-right: 31px;
+/*Glm	margin-right: 31px;*/
+/*Glm*/	margin-right: 20px;
 }
 .list3 li figure {
 	margin-right: 53px;
