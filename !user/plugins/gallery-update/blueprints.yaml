@@ -1,0 +1,27 @@
+name: Gallery Update
+version: 1.0.0
+description: Automatically updates gallery items after saving a page with the gallery template
+icon: image
+author:
+  name: ltGuillaume
+  email: none@no.com
+  url: http://github.com/ltGuillaume
+homepage: https://github.com/ltGuillaume/grav-theme-photographer
+keywords: gallery, plugin
+bugs: https://github.com/ltGuillaume/grav-theme-photographer/issues
+docs: https://github.com/ltGuillaume/grav-theme-photographer/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool

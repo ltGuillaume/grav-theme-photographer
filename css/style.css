@@ -1142,6 +1142,12 @@ address .info p:first-child {
 	color: #adadad;
 	border-color: #adadad;
 }
+.contact-form .required {
+	font-size: 1.5em;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #eb5368;
+}
 /*/Glm*/
 .contact-form fieldset {
 	top: 13px;
@@ -1159,7 +1165,7 @@ address .info p:first-child {
 /*Glm*/	margin-top: 1em;
 	padding: 0;
 	float: left;
-	width: 100%;
+/*Glm	width: 100%;*/
 }
 .contact-form .message {
 	display: block;
@@ -1188,6 +1194,22 @@ address .info p:first-child {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+/*Glm*/
+.contact-form div[data-grav-field="checkbox"] {
+	display: flex;
+	padding: 1em 0;
+	width: 100%;
+}
+.contact-form div[data-grav-field="checkbox"] input {
+	width: auto;
+	height: 2em;
+	margin-right: .5em;
+}
+.contact-form div[data-grav-field="checkbox"] label {
+	margin-top: 0;
+	font-weight: normal;
+}
+/*/Glm*/
 .contact-form textarea {
 /*	padding: 9px 14px 8px;
 /*Glm*/	padding: .75em;
