@@ -43,6 +43,12 @@
 
 $(window).load(function() {  
     var $container = $('#container');
+    var $hash = window.location.hash.substr(1);
+    if ($hash) {
+			$container.isotope( { filter: '.'+ $hash } );
+			$('#options .option-set').find('a[data-option-value="*"]').removeClass('selected');
+			$('#options .option-set').find('a[data-option-value=".'+ $hash +'"]').addClass('selected');
+		}
     //Run to initialise column sizes
     updateSize();
 

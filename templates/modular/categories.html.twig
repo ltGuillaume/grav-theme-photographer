@@ -5,7 +5,7 @@
                 {% for category in page.header.categories %}
                     <li class="col-lg-4 col-md-4 col-sm-4 listbox{{ loop.index }}">
                         <div class="{{ category.class }}">
-                            <a href="#">
+                            <a href="{{ category.href }}">
                                 {% if category.title_position == 'top' %}
                                     <p>{{ category.title }}</p>
                                 {% endif %}
